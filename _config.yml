@@ -42,7 +42,7 @@ favicon: "/img/favicon.ico"
 black-favicon: "/img/favicon36.png"
 #logo: "../img/sulav.jpg" # leave blank if you don't want a logo
 
-background-img: "../img/hero-bg2.jpg"
+background-img: "../img/hero-bg1.jpg"
 
 ##############################
 # Dynamic Text on the Header #
