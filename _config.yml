@@ -12,7 +12,7 @@ url: "https://shresthasulav.com.np"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: /personal-jekyll-theme
+baseurl: "https://shresthasulav.com.np"
 
 # Google tracking id
 
