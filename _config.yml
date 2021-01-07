@@ -29,20 +29,20 @@ force-https: True
 #############
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+author: "Sulav Shrestha"
+title: "Sulav Shresta"
+description: "Blog and website of Sulav Shrestha, blogging mainly for tech, in free time."
+keywords: "shrestha, sulav, personal, jekyll, theme"
 favicon: "/img/favicon.ico"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
-logo: "/img/author.png" # leave blank if you don't want a logo
+black-favicon: "/img/favicon36.png"
+#logo: "../img/sulav.jpg" # leave blank if you don't want a logo
 
-background-img: "../img/intro-bg.jpg"
+background-img: "../img/hero-bg2.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -56,10 +56,10 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "One should try to know the extent of one’s ignorance ..."
+  - text: "Welcome to my personal space where I intend to share my knowledge and extend it ..."
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/sulav.jpg"
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
