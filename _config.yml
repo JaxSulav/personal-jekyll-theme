@@ -42,7 +42,7 @@ favicon: "/img/favicon.ico"
 black-favicon: "/img/favicon36.png"
 #logo: "../img/sulav.jpg" # leave blank if you don't want a logo
 
-background-img: "../img/hero-bg1.jpg"
+background-img: "../img/hero-bg2.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -119,9 +119,9 @@ linkedin-share: True
 reddit-share: True
 google-plus-share: True
 tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
 
 disqus-shortname: "personal-jekyll-theme"
 
@@ -191,8 +191,8 @@ err-404-img: "/img/labtocat.png"
 ##################
 
 keybase-username: johnsmith
-keybase-in-social: True
-keybase-in-footer: True
+keybase-in-social: False
+keybase-in-footer: False
 
 ################################################################################
 
