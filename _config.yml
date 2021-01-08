@@ -30,7 +30,7 @@ force-https: True
 
 lang: "en"
 author: "Sulav Shrestha"
-title: "{ Sulav Shrestha }"
+title: "[ Sulav Shrestha ]"
 description: "Blog and website of Sulav Shrestha, blogging mainly for tech, in free time."
 keywords: "shrestha, sulav, personal, jekyll, theme"
 favicon: "/img/favicon.ico"

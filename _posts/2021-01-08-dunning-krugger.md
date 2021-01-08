@@ -26,4 +26,4 @@ Let's go briefly through this graph. At the time you know nothing, your confiden
 
 <br>![ET](/img/posts/dunning-kruger/dk3.jpg)<br>
 
-The more we learn and gain experience, the more we maneuver towards idiocy until one day when we realise the stupidity of our mind. That is where our valley of despair lies. We have to infiltrate the so called "valley" to pass through it and climb the mountain where there is the sustainabily, if we reach the peak. The actions we take might be different if we know what phenomenon we are going through. Now we know this, and yet we do not know anything.
+The more we learn and gain experience, the more we maneuver towards idiocy until one day when we realise the stupidity of our mind. That is where our valley of despair lies. We have to infiltrate the so called "valley" to pass through it and climb the mountain where there is the sustainabily, if we reach the peak. The actions we take might be different if we know what phenomenon we are going through. Now we know this, and yet we do not know anything. <br><br>
