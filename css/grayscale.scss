@@ -179,7 +179,7 @@ a {
     text-align: center;
     color: $intro-text-color;
     {% if site.background-img %}
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url({{ site.background-img }}) no-repeat bottom center scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url({{ site.background-img }}) no-repeat bottom center scroll;
     {% endif %}
     background-color: $header-background-color;
     -webkit-background-size: cover;

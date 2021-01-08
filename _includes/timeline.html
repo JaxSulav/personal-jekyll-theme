@@ -12,7 +12,7 @@
         {% for event in site.events %}
           {% assign loopindex = forloop.index | modulo: 2 %}
           {% capture class %}
-          {% if loopindex == 0 %}
+          {% if loopindex == 1 %}
             timeline-inverted
           {% endif %}
           {% endcapture %}
@@ -36,6 +36,14 @@
           <div class="timeline-image">
             <img class="img-circle img-responsive" src="{{site.baseurl}}{{ site.timeline-img }}" alt="">
           </div>
+          <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>June 6, 1995</h4>
+              </div>
+              <div class="timeline-body">
+              
+              </div>
+            </div>
         </li>
       </ul>
     </div>

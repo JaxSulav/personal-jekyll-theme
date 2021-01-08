@@ -112,7 +112,7 @@ post-preview-words: 96
 
 paginate: 5
 
-email-share: True
+email-share: False
 fb-share: True
 twitter-share: True
 linkedin-share: True
@@ -133,11 +133,11 @@ syntax-highlight: True
 
 events:
   - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
+    date: "June 2018 - Today"
+    description: "Being involved in interesting projects"
   - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+    date: "March 2015 - March 2019"
+    description: "Bachelors in Computer Science, Kathmandu University"
 
 # First image of the Timeline
 
