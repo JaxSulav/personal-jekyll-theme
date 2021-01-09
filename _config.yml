@@ -39,7 +39,7 @@ favicon: "/img/favicon.ico"
 # Header layout #
 ################
 
-black-favicon: "/img/favicon36.png"
+black-favicon: "/img/github-36.png" # from icons-8
 #logo: "../img/sulav.jpg" # leave blank if you don't want a logo
 
 background-img: "../img/hero-bg2.jpg"
