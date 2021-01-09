@@ -56,8 +56,9 @@ type-speed: 10
 start-delay: 200
 delete-delay: 1000
 lines: # You can add HTML Tags in the Text
+  - text: "Welcome to my personal space where I try to share what I think I know ..." 
+  - text: "I am always open to suggestions. Feel free to reach out to me through the contact section below ..."
   - text: "One should try to know the extent of one’s ignorance ..."
-  - text: "Welcome to my personal space. Here, I intend to share my knowledge and preserve it for others and even myself in the future ..."
 
 me-img: "/img/sulav.jpg"
 
