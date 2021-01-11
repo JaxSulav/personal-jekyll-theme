@@ -38,9 +38,33 @@ Lets' consider the following neural network with input vector (0.5, -0.5), which
 
 <br>![nn](/img/posts/nn-step/nn3.jpg)<br>
 
-Lets take a concept of [perceptron](#) analysis and move forward. Remember as we discussed in perceptron section, each neuron has two values in it, the Net Summed (Z) and the activated (S) value. <br>
+Lets take a concept of perceptron analysis and move forward. Remember as we discussed in [perceptron](#) section, each neuron has two values in it, the Net Summed (Z) and the activated (S) value. <br>
 For the 1st neuron of 2nd (hidden) layer, we calculate the Net Summed value and activated value as follows:
 
 <br>![nn](/img/posts/nn-step/nn4.jpg)<br>
 
+As we know the Net value (Z<sub>1</sub>) is calculated by using following:
 
+<br>![nn](/img/posts/nn-step/nn4_1.jpg)<br>
+
+We obtain Z<sub>1</sub> = 0.16, as shown in the above figure.<br>
+Now we need some activation function helps to make the output non-linear. The function to calculate the Net Value (Z) is just the equation of straight line (y=mx+c) which is a linear function. And what activation function does is, give non linearity to it. Know more detail about this in [perceptron](#) topic. Here, we use a sigmoid activation function for demonstration purpose. 
+
+![nn](/img/posts/nn-step/nn7.jpg) *where λ=Scaling factor and I=Net value (Z) of that neuron, which we calculated earlier.*<br>
+
+The calculation of the activated value of 1st neuron of hidden layer is shown in the figure below:
+
+<br>![nn](/img/posts/nn-step/nn5.jpg)<br>
+
+So we get the Net value (Z<sub>1</sub>) = 0.16 and activated value (S<sub>1</sub>) = 0.5399.<br>
+
+Now, this activated value becomes imput for the next neuron. In this way, we move forward until we finish calculating for the neurons of the output layer. In the figure below all the red colored values are the calculated values for all Z and S.
+
+<br>![nn](/img/posts/nn-step/nn6.jpg)<br><br>
+
+
+# Backpropagation:
+
+Now that we have propagated forward, it is time to propagate backwards, using the [gradient decent](#) algorithm we mentioned before. This is where learning happens. What we do basically is, we calculate the error value for the neurons in output layer as shown below and according to how much the error is, we tweak the weights, propagate forward again and so on until we get minimum error. 
+
+## Error Calculation:
