@@ -65,7 +65,7 @@ Now, this activated value becomes imput for the next neuron. In this way, we mov
 # Error Calculation:
 *How much does the output of the final layer neurons in one pass, vary from our expected output?* There are many methods to calculate errors but here we use a mean squared error calculation. We will use this while doing the backpropagation
 
-<br>![nn](../img/posts/nn-step/nn8.jpg) *where Y is the expected output, Y<sup>^</sup> is the actual or calculated output and n is the number of training samples.*<br> <br>
+<br>![nn](/img/posts/nn-step/nn8.jpg) *where Y is the expected output, Y<sup>^</sup> is the actual or calculated output and n is the number of training samples.*<br> <br>
 
 # Backpropagation (Output to Hidden):
 
@@ -73,33 +73,33 @@ Now that we have propagated forward, it is time to propagate backwards, using th
 
 Let's start. So, till now we know that we have to change the weight according to the error. So we have differentiate error with respect to weight. But we can not do it directly and here is why:
 
-<br>![nn](../img/posts/nn-step/nn10.jpg)<br>
+<br>![nn](/img/posts/nn-step/nn10.jpg)<br>
 
 The δ(y) value is not directly related to the weight value as we can see in the figure above. The weight is related directly to Z, Z to S and S to δ(y). So what we have to do is we have to apply a simple chain rule to differentiate (error) w.r.t (weight). First, we have to differentiate error w.r.t (S), (S) w.r.t (Z) and (Z) w.r.t (W) and multiply them as follow:
 
-![nn](../img/posts/nn-step/nn11.jpg)<br>
+![nn](/img/posts/nn-step/nn11.jpg)<br>
 
 So, let's start updating weight (w<sub>5</sub>) for the 1st neuron of the output layer.
 
-![nn](../img/posts/nn-step/nn12.jpg)<br>
+![nn](/img/posts/nn-step/nn12.jpg)<br>
 
 Assigining the previously calculated values in forward propagation, we have:
 
-![nn](../img/posts/nn-step/nn13.jpg)<br>
+![nn](/img/posts/nn-step/nn13.jpg)<br>
 
 NOTE: The error calculated here is just a simple error, we will calculate mean squared error later.<br>
 
 Let's take it step by step and operate 3 parts of the formula separately. following are the derivation of each term, individually:
 
-![nn](../img/posts/nn-step/nn14.jpg)<br>
+![nn](/img/posts/nn-step/nn14.jpg)<br>
 
 In simple terms, the values of those terms derives to these values:
 
-![nn](../img/posts/nn-step/nn15.jpg)<br>
+![nn](/img/posts/nn-step/nn15.jpg)<br>
 
 Now, let's put the respective terms from the values we calculated when feed forwarding. It goes like this:
 
-![nn](../img/posts/nn-step/nn16.jpg)<br>
+![nn](/img/posts/nn-step/nn16.jpg)<br>
 
 Now, we have the value for ΔW, we can update the weight by the weight update rule like this:
 
