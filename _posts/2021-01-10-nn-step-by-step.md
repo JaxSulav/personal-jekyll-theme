@@ -6,7 +6,7 @@ category: Neural network
 tags: [ 'Machine Learning', 'Neural Network' ]
 ---
 
-*What happens inside a neural network? How are values assigned to a neuron? Lets try to walk through each step of a neural network pipeline.*
+*What happens inside a neural network? How are values assigned to a neuron? Let's try to walk through each step of a neural network pipeline.*
 
 Adding basics about a neural network will make this post lengthier than it already is. So, this is not a basic - what is a neural network guide. Please, go through following articles about what a neural network is and it's two main entities:
 * [Perceptron](#)
@@ -34,11 +34,11 @@ Usually, inputs are the feature vectors of some kind. If you are performing a im
 
 # Feed Forward:
 
-Lets' consider the following neural network with input vector (0.5, -0.5), which means the first neuron of the input layer will have value **0.5** and second neuron will have **-0.5**. Each neuron has a bias value associated with it so that it can help, fire up the neurons if weigghts and imputs are not sufficient. Now, to have some weights to work with we randomly initialize the weights here for the sake of simplicity but in real world, there are things we should consider during weight initialization. You can go through [weight initialization techniques in a neural network](#) to know about why we should not use same weights for all neurons or simply random values as weights.
+Lets' consider the following neural network with input vector (0.5, -0.5), which means the first neuron of the input layer will have value **0.5** and second neuron will have **-0.5**. Each neuron has a bias value associated with it so that it can help, fire up the neurons if weights and inputs are not sufficient. Now, to have some weights to work with we randomly initialize the weights here for the sake of simplicity but in real world, there are things we should consider during weight initialization. You can go through [weight initialization techniques in a neural network](#) to know about why we should not use same weights for all neurons or simply random values as weights.
 
 <br>![nn](/img/posts/nn-step/nn3.jpg)<br>
 
-Lets take a concept of perceptron analysis and move forward. Remember as we discussed in [perceptron](#) section, each neuron has two values in it, the Net Summed **(Z)** and the activated **(S)** value. <br>
+Let's take a concept of perceptron analysis and move forward. Remember as we discussed in [perceptron](#) section, each neuron has two values in it, the Net Summed **(Z)** and the activated **(S)** value. <br>
 For the 1st neuron of 2nd (hidden) layer, we calculate the Net Summed value and activated value as follows:
 
 <br>![nn](/img/posts/nn-step/nn4.jpg)<br>
@@ -48,7 +48,7 @@ As we know the Net value (Z<sub>1</sub>) is calculated by using following:
 <br>![nn](/img/posts/nn-step/nn4_1.jpg)<br>
 
 We obtain **Z<sub>1</sub> = 0.16**, as shown in the above figure.<br>
-Now we need some activation function helps to make the output non-linear. The function to calculate the Net Value (Z) is just the equation of straight line **(y=mx+c)** which is a linear function. And what activation function does is, give non linearity to it. Know more detail about this in [perceptron](#) topic. Here, we use a sigmoid activation function for demonstration purpose. 
+Now we need some activation function helps to make the output non-linear. The function to calculate the Net Value (Z) is just the equation of straight line **(y=mx+c)** which is a linear function. And what activation function does is, give nonlinearity to it. Know more detail about this in [perceptron](#) topic. Here, we use a sigmoid activation function for demonstration purpose. 
 
 ![nn](/img/posts/nn-step/nn7.jpg) *where λ=Scaling factor and I=Net value (Z) of that neuron, which we calculated earlier.*<br>
 
@@ -63,7 +63,7 @@ Now, this activated value becomes imput for the next neuron. In this way, we mov
 <br>![nn](/img/posts/nn-step/nn6.jpg)<br><br>
 
 # Error Calculation:
-*How much does the output of the final layer neurons in one pass, vary from our expected output?* There are many methods to calculate errors but here we use a mean squared error calculation. We will use this while doing the backpropagation
+*How much does the output of the final layer neurons in one pass, vary from our expected output?* There are many methods to calculate errors but here we use a mean squared error calculation. We will use this while doing the backpropagation.
 
 <br>![nn](/img/posts/nn-step/nn8.jpg) *where Y is the expected output, Y<sup>^</sup> is the actual or calculated output and n is the number of training samples.*<br> <br>
 
@@ -71,11 +71,11 @@ Now, this activated value becomes imput for the next neuron. In this way, we mov
 
 Now that we have propagated forward, it is time to propagate backwards, using the [gradient decent](#) algorithm we mentioned before. This is where the network learns. What we do basically is, we calculate the error value for the neurons in output layer and according to how much the error is, we tweak the weights, propagate forward again and so on until we get minimum error. 
 
-Let's start. So, till now we know that we have to change the weight according to the error. So we have differentiate error with respect to weight. But we can not do it directly and here is why:
+Let's start. So, till now we know that we have to change the weight according to the error. So we have differentiated error with respect to weight. But we can not do it directly and here is why:
 
 <br>![nn](/img/posts/nn-step/nn10.jpg)<br>
 
-The δ(y) value is not directly related to the weight value as we can see in the figure above. The weight is related directly to Z, Z to S and S to δ(y). So what we have to do is we have to apply a simple chain rule to differentiate (error) w.r.t (weight). First, we have to differentiate error w.r.t (S), (S) w.r.t (Z) and (Z) w.r.t (W) and multiply them as follow:
+The δ(y) value is not directly related to the weight value as we can see in the figure above. The weight is related directly to Z, Z to S and S to δ(y). So what we have to do is we have to apply a simple chain rule to differentiate (error) w.r.t (weight). First, we have to differentiate error w.r.t (S), (S) w.r.t (Z) and (Z) w.r.t (W) and multiply them as follows:
 
 ![nn](/img/posts/nn-step/nn11.jpg)<br>
 
@@ -83,13 +83,13 @@ So, let's start updating weight (w<sub>5</sub>) for the 1st neuron of the output
 
 ![nn](/img/posts/nn-step/nn12.jpg)<br>
 
-Assigining the previously calculated values in forward propagation, we have:
+Assigning the previously calculated values in forward propagation, we have:
 
 ![nn](/img/posts/nn-step/nn13.jpg)<br>
 
 NOTE: The error calculated here is just a simple error, we will calculate mean squared error later.<br>
 
-Let's take it step by step and operate 3 parts of the formula separately. following are the derivation of each term, individually:
+Let's take it step by step and operate 3 parts of the formula separately. Following are the derivation of each term, individually:
 
 ![nn](/img/posts/nn-step/nn14.jpg)<br>
 
@@ -122,7 +122,7 @@ Now, we backpropagate through following path to update weight **W<sub>1</sub>** 
 
 ![nn](/img/posts/nn-step/nn19.jpg)<br>
 
-Following formula is used to find out the **ΔW** for **W<sub>1</sub>**. here, p is the number of path we come through when bacjpropagating to that particular neuron. Simply put, it is the number of neurons in our output layer. So we have **p=2**.
+Following formula is used to find out the **ΔW** for **W<sub>1</sub>**. Here, p is the number of path we come through when bacjpropagating to that particular neuron. Simply put, it is the number of neurons in our output layer. So we have **p=2**.
 
 ![nn](/img/posts/nn-step/nn20.jpg)<br>
 
