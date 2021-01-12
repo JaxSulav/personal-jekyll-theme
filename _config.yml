@@ -56,7 +56,7 @@ type-speed: 12
 start-delay: 200
 delete-delay: 2000
 lines: # You can add HTML Tags in the Text
-  - text: "Welcome to my bright side. Giving a shot to being a better person ..." 
+  - text: "Welcome to my bright side. Giving it a shot to being a better person ..." 
   - text: "Open to suggestions - You can reach out to me through the contact section below ..."
   - text: "One should try to know the extent of one’s ignorance ..."
 
@@ -163,7 +163,7 @@ pgp: False
 
 # if the author_blurb is not set, then this feature is skipped
 author_blurb: "My way of doing things might not be perfect, so I am always open to suggestions. Feel free to contact me for queries regarding any post or if you have any suggestion for me, through the contact section."
-author_blurb_image: "/img/author.png"
+author_blurb_image: "/img/icons8-itachi-uchiha-96.png"
 
 ##################
 # Social Buttons #

@@ -8,11 +8,11 @@ tags: [ 'Machine Learning', 'Neural Network' ]
 
 *What happens inside a neural network? How are values assigned to a neuron? Lets try to walk through each step of a neural network pipeline.*
 
-This is not a basic - what is a neural network guide. So I assume you already know what a neural network is and it's two main entities:
-* Perceptron
-* Gradient Descent
+Adding basics about a neural network will make this post lengthier than it already is. So, this is not a basic - what is a neural network guide. Please, go through following articles about what a neural network is and it's two main entities:
+* [Perceptron](#)
+* [Gradient Descent](#)
 
-*You can follow through my above linked articles about the topics.*
+<br>
   
 What we will do today is, consider the following neural network as an example and run through every step from start to end, of how the network learns while training.
 
@@ -22,7 +22,7 @@ This particular network consists of 3 layers i.e input, hidden and output layer 
 
 Let's start with a simple pipeline, the way a Neural Network learns:
 
-PIPELINE IMAGE
+![nn](/img/posts/nn-step/nn23.jpg)<br>
 
 <br>
 
@@ -103,11 +103,45 @@ Now, let's put the respective terms from the values we calculated when feed forw
 
 Now, we have the value for ΔW, we can update the weight by the weight update rule like this:
 
+![nn](/img/posts/nn-step/nn16_1.jpg)<br>
+
 This is where learning rate is used. For our particular example, we take learning rate **η=1.2** but in real world this value cannot be so high because then, the network will never learn. More details can be found in the **[Gradient Descent](#)** section.
 
-IMAGE
+![nn](../img/posts/nn-step/nn17.jpg)<br>
 
 So, we have the previous weight **W<sub>5</sub> = 0.37** and **ΔW = -0.0201**. The new weight value for **W<sub>5</sub>**, as calculated in above figure, will be **0.3941**. <br><br>
 
 
-# Backpropagation (Output to Hidden):
+# Backpropagation (Hidden to Input):
+
+To update the weights of other neurons except the output neurons is a little bit different. This is because each of the output neurons only have effect on one error value but if we take 1st neuron of the hidden layer, it effects both neurons of the output layer. So we backpropagate through both of the outputs. Previously, we followed this path:
+
+![nn](../img/posts/nn-step/nn18.jpg)<br>
+
+Now, we backpropagate through following path to update weight **W<sub>1</sub>** so a little bit of extra steps to follow.
+
+![nn](../img/posts/nn-step/nn19.jpg)<br>
+
+Following formula is used to find out the **ΔW** for **W<sub>1</sub>**. here, p is the number of path we come through when bacjpropagating to that particular neuron. Simply put, it is the number of neurons in our output layer. So we have **p=2**.
+
+![nn](../img/posts/nn-step/nn20.jpg)<br>
+
+So, in this way we have found the **ΔW<sub>1</sub> = -0.0045954** and now it is time to obtain the new weight for **W<sub>1</sub>** using the weight update rule as we did previously.
+
+![nn](../img/posts/nn-step/nn21.jpg)<br>
+
+**In this way, we calculate the new weight values for each weigh associated with all neurons in hidden and output layer and the final calculated result will be as shown below:**
+
+![nn](../img/posts/nn-step/nn22.jpg)<br>
+<br>
+***
+<br>
+
+> ### <span style="color:blue">**`We now have finished backpropagating. Now, we repeat all this feed forward and backpropagation until we reach a decently lesser error value as shown in this previous pipeline.`**</span>
+
+<br> 
+
+![nn](../img/posts/nn-step/nn23.jpg)<br> <br>
+
+> ### <span style="color:blue">**`We have finished a basic walkthrough of a neural network and backpropagation algorithm. A network can learn from this but there are many more optimization techinques which are used widely throughout the globe to minimize the error and yield a highly accurate model. This is it for now and we can discuss about those optimization alogithm later in another post.`**</span>
+
