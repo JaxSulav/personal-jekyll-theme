@@ -132,9 +132,10 @@ So, in this way we have found the **ΔW<sub>1</sub> = -0.0045954** and now it is
 
 **In this way, we calculate the new weight values for each weigh associated with all neurons in hidden and output layer and the final calculated result will be as shown below:**
 
-![nn](/img/posts/nn-step/nn22.jpg)<br>
-<br>
+![nn](/img/posts/nn-step/nn22.jpg)<br><br>
+
 ***
+
 <br>
 
 > <span style="color:blue">**`We now have finished backpropagating. Now, we repeat all this feed forward and backpropagation until we reach a decently lesser error value as shown in this previous pipeline.`**</span>
