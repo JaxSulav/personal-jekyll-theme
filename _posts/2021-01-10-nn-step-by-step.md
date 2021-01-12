@@ -146,3 +146,7 @@ So, in this way we have found the **ΔW<sub>1</sub> = -0.0045954** and now it is
 
 > <span style="color:blue">**`We have finished a basic walkthrough of a neural network and backpropagation algorithm. A network can learn from this but there are many more optimization techinques which are used widely throughout the globe to minimize the error and yield a highly accurate model. This is it for now and we can discuss about those optimization alogithm later in another post.`**</span>
 
+<br>
+
+> <span style="color:blue">**[*Here*](https://github.com/JaxSulav/nn_cpp) is my implementation of an [*Artificial Neural Network in C++*](https://github.com/JaxSulav/nn_cpp) using this concept.**</span>
+
