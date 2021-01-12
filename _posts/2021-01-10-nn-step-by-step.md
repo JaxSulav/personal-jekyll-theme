@@ -107,7 +107,7 @@ Now, we have the value for ΔW, we can update the weight by the weight update ru
 
 This is where learning rate is used. For our particular example, we take learning rate **η=1.2** but in real world this value cannot be so high because then, the network will never learn. More details can be found in the **[Gradient Descent](#)** section.
 
-![nn](../img/posts/nn-step/nn17.jpg)<br>
+![nn](/img/posts/nn-step/nn17.jpg)<br>
 
 So, we have the previous weight **W<sub>5</sub> = 0.37** and **ΔW = -0.0201**. The new weight value for **W<sub>5</sub>**, as calculated in above figure, will be **0.3941**. <br><br>
 
@@ -116,23 +116,23 @@ So, we have the previous weight **W<sub>5</sub> = 0.37** and **ΔW = -0.0201**. 
 
 To update the weights of other neurons except the output neurons is a little bit different. This is because each of the output neurons only have effect on one error value but if we take 1st neuron of the hidden layer, it effects both neurons of the output layer. So we backpropagate through both of the outputs. Previously, we followed this path:
 
-![nn](../img/posts/nn-step/nn18.jpg)<br>
+![nn](/img/posts/nn-step/nn18.jpg)<br>
 
 Now, we backpropagate through following path to update weight **W<sub>1</sub>** so a little bit of extra steps to follow.
 
-![nn](../img/posts/nn-step/nn19.jpg)<br>
+![nn](/img/posts/nn-step/nn19.jpg)<br>
 
 Following formula is used to find out the **ΔW** for **W<sub>1</sub>**. here, p is the number of path we come through when bacjpropagating to that particular neuron. Simply put, it is the number of neurons in our output layer. So we have **p=2**.
 
-![nn](../img/posts/nn-step/nn20.jpg)<br>
+![nn](/img/posts/nn-step/nn20.jpg)<br>
 
 So, in this way we have found the **ΔW<sub>1</sub> = -0.0045954** and now it is time to obtain the new weight for **W<sub>1</sub>** using the weight update rule as we did previously.
 
-![nn](../img/posts/nn-step/nn21.jpg)<br>
+![nn](/img/posts/nn-step/nn21.jpg)<br>
 
 **In this way, we calculate the new weight values for each weigh associated with all neurons in hidden and output layer and the final calculated result will be as shown below:**
 
-![nn](../img/posts/nn-step/nn22.jpg)<br>
+![nn](/img/posts/nn-step/nn22.jpg)<br>
 <br>
 ***
 <br>
@@ -141,7 +141,7 @@ So, in this way we have found the **ΔW<sub>1</sub> = -0.0045954** and now it is
 
 <br> 
 
-![nn](../img/posts/nn-step/nn23.jpg)<br> <br>
+![nn](/img/posts/nn-step/nn23.jpg)<br> <br>
 
 > ### <span style="color:blue">**`We have finished a basic walkthrough of a neural network and backpropagation algorithm. A network can learn from this but there are many more optimization techinques which are used widely throughout the globe to minimize the error and yield a highly accurate model. This is it for now and we can discuss about those optimization alogithm later in another post.`**</span>
 
