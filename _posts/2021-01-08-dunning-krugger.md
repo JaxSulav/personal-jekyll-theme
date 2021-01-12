@@ -10,7 +10,7 @@ tags: [ 'Misc' ]
 
 <br>![Dunning-Kruger Effect](/img/posts/dunning-kruger/dk1.jpg)<br>
 
-I still remember attending the interview for my internship. They asked me "From the scale of 1 to10, how would you like to rate your python programming language skill?" -- "7.5" was my answer.  I can't stop laughing everytime that moment jogs my memory . After working few years in the particular field, I knew how vast that field was, and now if you asked me, my answer would be a 4 :sweat_smile: .
+I still remember attending the interview for my internship. They asked me "From the scale of 1 to10, how would you like to rate your python programming language skill?" -- "7" was my answer.  I can't stop laughing everytime that moment jogs my memory . After working few years in the particular field, I knew how vast that field was, and now if you asked me, my answer would be a 4 :sweat_smile: .
 
 Am I going backwards?, is my expertise decreasing as I gain more experience?. -- Absolutely not. It is that I had overestimated my level before, but got to know later that it actually was significantly lower. Before, I just knew a small portion related to the field but after experiencing wilderness of the domain, I realised that the knowledge I possessed was considerably smaller. So, why did I feel like I had an imposing ability in python? -- Because of the Dunning-Kruger effect.
 
