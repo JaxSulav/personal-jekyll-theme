@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: The Dunning-Kruger Effect -- How stupid are we? 
+title: The Dunning-Kruger Effect 
 category: Misc
 tags: [ 'Misc' ]
 ---
