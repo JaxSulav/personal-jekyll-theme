@@ -137,11 +137,11 @@ So, in this way we have found the **ΔW<sub>1</sub> = -0.0045954** and now it is
 ***
 <br>
 
-> ### <span style="color:blue">**`We now have finished backpropagating. Now, we repeat all this feed forward and backpropagation until we reach a decently lesser error value as shown in this previous pipeline.`**</span>
+> <span style="color:blue">**`We now have finished backpropagating. Now, we repeat all this feed forward and backpropagation until we reach a decently lesser error value as shown in this previous pipeline.`**</span>
 
 <br> 
 
 ![nn](/img/posts/nn-step/nn23.jpg)<br> <br>
 
-> ### <span style="color:blue">**`We have finished a basic walkthrough of a neural network and backpropagation algorithm. A network can learn from this but there are many more optimization techinques which are used widely throughout the globe to minimize the error and yield a highly accurate model. This is it for now and we can discuss about those optimization alogithm later in another post.`**</span>
+> <span style="color:blue">**`We have finished a basic walkthrough of a neural network and backpropagation algorithm. A network can learn from this but there are many more optimization techinques which are used widely throughout the globe to minimize the error and yield a highly accurate model. This is it for now and we can discuss about those optimization alogithm later in another post.`**</span>
 
