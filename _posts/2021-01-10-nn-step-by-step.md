@@ -150,3 +150,4 @@ So, in this way we have found the **ΔW<sub>1</sub> = -0.0045954** and now it is
 
 > <span style="color:yellow">**[*Here*](https://github.com/JaxSulav/nn_cpp) is my implementation of an [*Artificial Neural Network in C++*](https://github.com/JaxSulav/nn_cpp) using this concept.**</span>
 
+*The example in this article is taken from [this](https://books.google.com.np/books/about/Neural_Networks.html?id=y67YnH4kEMsC&redir_esc=y) [book](https://www.amazon.com/Neural-Networks-Classroom-Approach-Kumar/dp/1259006166).*
