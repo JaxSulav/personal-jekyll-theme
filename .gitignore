@@ -18,3 +18,5 @@ Rakefile
 .jekyll-metadata
 .jekyll-cache
 /.idea/
+
+next.md
