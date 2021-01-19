@@ -21,7 +21,6 @@
 
         <div>
           {% for post in paginator.posts %}
-          
             {% include post-list.html%}
           {% endfor %}
         </div>
@@ -33,12 +32,8 @@
     </section>
 
     <section id="page" class="container content-section text-center">
-    {% for post in paginator.posts %}
-          <h2> {{ post.category | unique}}</h2>
-            {% include post-list.html%}
-          {% endfor %}
-    <h3><a href='#'>Browse by Categories</a></h3>
-    <h3><a href='#'>Browse by Tags</a></h3>
+      <h3><a href='{{site.baseurl}}/blog/categories/'>Browse by Categories</a></h3>
+      <h3><a href='#'>Browse by Tags</a></h3>
     </section>
 
     {% include footer.html %}
