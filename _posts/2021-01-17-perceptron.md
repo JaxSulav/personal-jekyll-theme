@@ -2,7 +2,7 @@
 layout: post
 section-type: post
 title: Perceptron - A basis of a Neural Network
-category: Neural Network
+category: Neural network
 tags: [ 'Machine Learning', 'Neural Network' ]
 ---
 
