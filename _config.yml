@@ -133,7 +133,7 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/spidertocat.png"
     date: "June 2018 - Today"
-    description: "Being involved in interesting projects"
+    description: "Professionaly active"
   - image: "/img/timeline/baracktocat.jpg"
     date: "March 2015 - March 2019"
     description: "Bachelors in Computer Science, Kathmandu University"
