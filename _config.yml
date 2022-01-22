@@ -56,7 +56,7 @@ type-speed: 12
 start-delay: 200
 delete-delay: 2000
 lines: # You can add HTML Tags in the Text
-  - text: "The time complexity of a so-called homo sapiens is O(n ^ idiocy). Less, the better"
+  - text: "The time complexity of a so-called homo sapiens is O(n exp idiocy). Less, the better"
   - text: "The variance of network in my brain is so high, I had to induce some bias to get me writing here"
 
 me-img: "/img/sulav.jpg"
