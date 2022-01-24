@@ -9,8 +9,8 @@ tags: [ 'Machine Learning', 'Neural Network' ]
 *What happens inside a neural network? How are values assigned to a neuron? Let's try to walk through each step of a neural network pipeline.*
 
 Adding basics about a neural network will make this post lengthier than it already is. So, this is not a basic - what is a neural network guide. Please, go through following articles about what a neural network is and it's two main entities:
-* [Perceptron](#)
-* [Gradient Descent](#)
+* [Perceptron](https://shresthasulav.com.np/neural%20network/2021/01/17/perceptron.html)
+* [Gradient Descent](https://shresthasulav.com.np/neural%20network/2021/05/14/gradient-descent.html)
 
 <br>
   
