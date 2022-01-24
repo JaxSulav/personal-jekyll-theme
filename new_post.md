@@ -1,0 +1,3 @@
+- ./scripts/newpost hello-world
+- ./scripts/generate-tags
+- ./scripts/generate-categories
