@@ -56,7 +56,7 @@ type-speed: 12
 start-delay: 200
 delete-delay: 2000
 lines: # You can add HTML Tags in the Text
-  - text: "Hello, I like medium - dark roasted arabicas."
+  - text: "I like medium - dark roasted arabicas."
   - text: "The variance of network in my brain is so high, I had to induce some bias to get me writing here"
 
 me-img: "/img/sulav.jpg"
