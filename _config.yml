@@ -123,7 +123,7 @@ pinterest-share: False
 pocket-share: False
 vkontakte-share: False
 
-disqus-shortname: "sulav"
+disqus-shortname: "sulav-1"
 
 syntax-highlight: True
 
@@ -147,7 +147,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "wabalabadubdub26@gmail.com"
+email: "sth.sulav7@gmail.com"
 
 
 # Set a url pointing to your publish PGP Public Key here, and it will appear in the Contact section
