@@ -20,3 +20,5 @@ Rakefile
 /.idea/
 
 next.md
+.vscode
+.DS_Store
