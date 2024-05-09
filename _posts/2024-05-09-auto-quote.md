@@ -158,6 +158,10 @@ So, the signature will be updated to the custom signature we just created.
 
 ![trigger1](/img/posts/auto-quote/trigger1.jpg)
 
+### You should have this when you compose a new email now: 
+
+![trigger1](/img/posts/auto-quote/final.jpg)
+
 `Congratulations! You now have a daily motivation for yourself and your connections!`
 
 ### Resources:
